@@ -1,0 +1,12 @@
+{
+  "title": "Statistical evaluation of SCD readability metric",
+  "layman_summary": "Comprehensive statistical comparison of Semantic Coherence Distance (SCD) readability metric against traditional Flesch-Kincaid formula, showing SCD provides complementary signal for readability prediction.",
+  "summary": "This evaluation artifact provides a comprehensive statistical assessment of the Semantic Coherence Distance (SCD) readability metric against traditional formulas (Flesch-Kincaid). The evaluation uses data from iter_1 experiment with 60 synthetic examples across simple, medium, and complex complexity levels.\n\nKey metrics computed:\n1. Pearson correlation with bootstrap CI: SCD r=0.54 [0.36, 0.71], FK r=0.65 [0.49, 0.78]\n2. Williams test for dependent correlations: p=0.19 (difference not significant)\n3. ANOVA across complexity levels: F=22.62, p<0.001 (significant)\n4. Error analysis: SCD MAE=6.74, FK MAE=3.14; Cohen's d=0.91 (large effect)\n5. Computational efficiency: SCD 0.022 ms/text (meets <1s requirement)\n6. Complementarity: SCD-FK correlation r=0.55; partial correlation (SCD|FK) r=0.29, p=0.02 (unique signal)\n7. Ensemble improvement: SCD+FK correlation r=0.68 (best performance)\n8. Normality tests: Both error distributions non-normal (Shapiro-Wilk p<0.001)\n\nThe evaluation shows that while SCD alone does not outperform Flesch-Kincaid, it captures unique semantic coherence information not reflected in surface-level formulas. The ensemble of SCD+FK achieves the best performance, supporting the hypothesis that semantic coherence distance is complementary to traditional readability metrics.",
+  "out_expected_files": {
+    "script": "eval.py",
+    "full_output": "full_eval_out.json",
+    "mini_output": "mini_eval_out.json",
+    "preview_output": "preview_eval_out.json"
+  },
+  "upload_ignore_regexes": []
+}

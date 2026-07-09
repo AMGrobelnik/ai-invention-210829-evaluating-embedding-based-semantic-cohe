@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "method": "SCE simple",
+    "correlations": {
+      "SCE": 0.43404928817242155,
+      "FleschKincaid": 0.9537916201038047
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "readability",
+      "examples": [
+        {
+          "input": "The cat is big. The dog runs. We play all day.",
+          "output": "1.107700234938439",
+          "predict_sce": "0.031040688101401842",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-8.5",
+          "metadata_id": "3",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The cat is big. The dog runs. We play all day.",
+          "output": "1.536202040033927",
+          "predict_sce": "0.031040688101401842",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-8.5",
+          "metadata_id": "6",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Technology has transformed modern communication methods. Many individuals use digital devices daily. This change has both advantages and disadvantages.",
+          "output": "6.011649971327826",
+          "predict_sce": "0.8318974066096122",
+          "predict_flesch_kincaid": "15.45",
+          "predict_smog": "12.63",
+          "predict_coleman_liau": "-10.26",
+          "metadata_id": "10",
+          "metadata_num_sentences": 3
+        }
+      ]
+    }
+  ]
+}

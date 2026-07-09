@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "evaluation_name": "SCD Readability Metric Statistical Evaluation",
+    "description": "Comprehensive statistical evaluation comparing Semantic Coherence Distance (SCD) against Flesch-Kincaid",
+    "n_examples": 60,
+    "complexity_levels": {
+      "simple": 20,
+      "medium": 20,
+      "complex": 20
+    }
+  },
+  "metrics_agg": {
+    "corr_scd_true": 0.5442276192287167,
+    "p_scd_true": 6.967731316064421e-06,
+    "ci_low_scd_true": 0.3602613213585357,
+    "ci_high_scd_true": 0.713459337653907,
+    "rmse_scd": 8.045498340663151,
+    "corr_fk_true": 0.649167575819182,
+    "p_fk_true": 2.0189558252481538e-08,
+    "ci_low_fk_true": 0.48820837625146757,
+    "ci_high_fk_true": 0.7764411284580651,
+    "rmse_fk": 4.603394667457286,
+    "corr_scd_fk": 0.5504702496866339,
+    "williams_t": -1.303568474430229,
+    "williams_p": 0.1923807553706247,
+    "anova_scd_f": 22.618505504163345,
+    "anova_scd_p": 5.869502371966472e-08,
+    "anova_fk_f": 180.60656634746925,
+    "anova_fk_p": 2.150799342056135e-25,
+    "mae_scd": 6.735336584525019,
+    "median_ae_scd": 6.270084729159709,
+    "mae_fk": 3.140235202130845,
+    "median_ae_fk": 1.2625971690798847,
+    "n_scd_better": 1,
+    "pct_scd_better": 1.6666666666666667,
+    "time_scd_ms": 0.021761111915111542,
+    "time_fk_ms": 0.0039558857679367065,
+    "meets_time_requirement": 1.0,
+    "ensemble_corr": 0.6777001290882831,
+    "ensemble_p": 2.7253610477264913e-09,
+    "partial_corr_scd_given_fk": 0.2942863058979218,
+    "partial_corr_p_scd_given_fk": 0.02246706557079532,
+    "partial_corr_fk_given_scd": 0.49913038448608515,
+    "partial_corr_p_fk_given_scd": 4.918712765572134e-05,
+    "cohens_d_error_diff": 0.9099960733843351,
+    "cohens_d_scd_simple_complex": -1.5103648739831321,
+    "normality_scd_errors_w": 0.9221254081574923,
+    "normality_scd_errors_p": 0.00093488862930827,
+    "normality_fk_errors_w": 0.7913387601339551,
+    "normality_fk_errors_p": 8.265932343097695e-08,
+    "spearman_scd_true": 0.08571489950786364,
+    "spearman_fk_true": 0.6865282398508665,
+    "r2_scd": 0.296183701531357,
+    "r2_fk": 0.4214185414949535
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.4464214762976455",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_0",
+          "eval_scd_error": 1.4360214762976455,
+          "eval_fk_error": 0.886911857035688
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.0635653589635672",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_1",
+          "eval_scd_error": 1.0531653589635672,
+          "eval_fk_error": 1.2697679743697663
+        },
+        {
+          "input": "The dog sits. It is happy.",
+          "output": "2.432039225844807",
+          "predict_sce": "2.4999999999999974e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_2",
+          "eval_scd_error": 2.432014225844807,
+          "eval_fk_error": 0.4320392258448069
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "2.618860913355653",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_3",
+          "eval_scd_error": 2.608460913355653,
+          "eval_fk_error": 0.2855275800223196
+        },
+        {
+          "input": "The dog flies. It is big.",
+          "output": "1.5557426833432837",
+          "predict_sce": "0.0004000000000000002",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_4",
+          "eval_scd_error": 1.5553426833432837,
+          "eval_fk_error": 0.4442573166567163
+        },
+        {
+          "input": "The bird sits. It is happy.",
+          "output": "1.193432753666928",
+          "predict_sce": "0.00010000000000000005",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_5",
+          "eval_scd_error": 1.193332753666928,
+          "eval_fk_error": 0.806567246333072
+        },
+        {
+          "input": "I like cake. It is good.",
+          "output": "2.946231527958741",
+          "predict_sce": "2.4999999999999974e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_6",
+          "eval_scd_error": 2.9462065279587413,
+          "eval_fk_error": 0.9462315279587412
+        },
+        {
+          "input": "I like apple. It is good.",
+          "output": "2.154704290513524",
+          "predict_sce": "9.99999999999999e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_7",
+          "eval_scd_error": 2.154604290513524,
+          "eval_fk_error": 0.15470429051352408
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "2.9704430413215155",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_8",
+          "eval_scd_error": 2.9600430413215153,
+          "eval_fk_error": 0.637109707988182
+        },
+        {
+          "input": "The cat runs. It is big.",
+          "output": "2.2713688885288006",
+          "predict_sce": "0.000225",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_9",
+          "eval_scd_error": 2.2711438885288007,
+          "eval_fk_error": 0.2713688885288006
+        },
+        {
+          "input": "I like cake. It is good.",
+          "output": "2.3403503487553867",
+          "predict_sce": "2.4999999999999974e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_10",
+          "eval_scd_error": 2.340325348755387,
+          "eval_fk_error": 0.3403503487553867
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.3268049875238568",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_11",
+          "eval_scd_error": 1.3164049875238568,
+          "eval_fk_error": 1.0065283458094767
+        },
+        {
+          "input": "I like apple. It is good.",
+          "output": "2.6857038403796194",
+          "predict_sce": "9.99999999999999e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_12",
+          "eval_scd_error": 2.685603840379619,
+          "eval_fk_error": 0.6857038403796194
+        },
+        {
+          "input": "The dog sits. It is big.",
+          "output": "1.5354817519514055",
+          "predict_sce": "0.000225",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_13",
+          "eval_scd_error": 1.5352567519514055,
+          "eval_fk_error": 0.46451824804859454
+        },
+        {
+          "input": "The bird sits. It is big.",
+          "output": "2.7693663077734048",
+          "predict_sce": "0.0004000000000000002",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_14",
+          "eval_scd_error": 2.768966307773405,
+          "eval_fk_error": 0.7693663077734048
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.493255015387967",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_15",
+          "eval_scd_error": 1.482855015387967,
+          "eval_fk_error": 0.8400783179453666
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.723992887427222",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_16",
+          "eval_scd_error": 1.713592887427222,
+          "eval_fk_error": 0.6093404459061116
+        },
+        {
+          "input": "The fish sits. It is happy.",
+          "output": "1.3056826386965221",
+          "predict_sce": "0.00010000000000000005",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_17",
+          "eval_scd_error": 1.3055826386965221,
+          "eval_fk_error": 0.6943173613034779
+        },
+        {
+          "input": "The fish flies. It is happy.",
+          "output": "1.7632385730130735",
+          "predict_sce": "0.00022500000000000018",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_18",
+          "eval_scd_error": 1.7630135730130736,
+          "eval_fk_error": 0.23676142698692648
+        },
+        {
+          "input": "I like cake. It is good.",
+          "output": "2.36342073805315",
+          "predict_sce": "2.4999999999999974e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_19",
+          "eval_scd_error": 2.36339573805315,
+          "eval_fk_error": 0.3634207380531498
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.074394930629784",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_0",
+          "eval_scd_error": 7.066269930629784,
+          "eval_fk_error": 1.7410615972964507
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "4.446208694383506",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_1",
+          "eval_scd_error": 4.438083694383506,
+          "eval_fk_error": 0.8871246389498273
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "4.632631017378679",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_2",
+          "eval_scd_error": 4.624506017378679,
+          "eval_fk_error": 0.7007023159546542
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "7.81526371008432",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_3",
+          "eval_scd_error": 7.80870121008432,
+          "eval_fk_error": 2.481930376750987
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.887552395480457",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_4",
+          "eval_scd_error": 7.879427395480457,
+          "eval_fk_error": 2.5542190621471237
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "6.0307266984173005",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_5",
+          "eval_scd_error": 6.0241641984173,
+          "eval_fk_error": 0.6973933650839674
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "7.482074279347067",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_6",
+          "eval_scd_error": 7.475511779347067,
+          "eval_fk_error": 2.148740946013734
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.366677392689868",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_7",
+          "eval_scd_error": 7.358552392689869,
+          "eval_fk_error": 2.0333440593565353
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "4.611357074198539",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_8",
+          "eval_scd_error": 4.6047945741985385,
+          "eval_fk_error": 0.7219762591347942
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "6.157516120478503",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_9",
+          "eval_scd_error": 6.150953620478503,
+          "eval_fk_error": 0.8241827871451699
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "6.395778337840916",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_10",
+          "eval_scd_error": 6.389215837840916,
+          "eval_fk_error": 1.062445004507583
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "4.07790696954333",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_11",
+          "eval_scd_error": 4.06978196954333,
+          "eval_fk_error": 1.2554263637900034
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.514887511292737",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_12",
+          "eval_scd_error": 7.506762511292737,
+          "eval_fk_error": 2.181554177959404
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "4.957809241352235",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_13",
+          "eval_scd_error": 4.9496842413522355,
+          "eval_fk_error": 0.3755240919810978
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "7.512038396816163",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_14",
+          "eval_scd_error": 7.505475896816162,
+          "eval_fk_error": 2.1787050634828296
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "4.3426138082715156",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_15",
+          "eval_scd_error": 4.336051308271515,
+          "eval_fk_error": 0.9907195250618175
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.264093013680354",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_16",
+          "eval_scd_error": 7.255968013680354,
+          "eval_fk_error": 1.9307596803470206
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "4.513565857999051",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_17",
+          "eval_scd_error": 4.507003357999051,
+          "eval_fk_error": 0.8197674753342818
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.7873947188199635",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_18",
+          "eval_scd_error": 7.779269718819964,
+          "eval_fk_error": 2.4540613854866304
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "5.060226515760236",
+          "predict_sce": "0.006562499999999997",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_19",
+          "eval_scd_error": 5.053664015760236,
+          "eval_fk_error": 0.2731068175730966
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "15.750540342052187",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_0",
+          "eval_scd_error": 15.750540342052187,
+          "eval_fk_error": 11.750540342052187
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "13.990642809733853",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_1",
+          "eval_scd_error": 13.217417809733853,
+          "eval_fk_error": 7.990642809733853
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "15.966045496626263",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_2",
+          "eval_scd_error": 15.966045496626263,
+          "eval_fk_error": 11.966045496626263
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "12.066700587401527",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_3",
+          "eval_scd_error": 12.066700587401527,
+          "eval_fk_error": 8.066700587401527
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "9.84702937107786",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_4",
+          "eval_scd_error": 9.84702937107786,
+          "eval_fk_error": 5.847029371077859
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "9.448181274284414",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_5",
+          "eval_scd_error": 8.674956274284414,
+          "eval_fk_error": 3.448181274284414
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "13.118161029200634",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_6",
+          "eval_scd_error": 12.344936029200634,
+          "eval_fk_error": 7.118161029200634
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "13.119080800872457",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_7",
+          "eval_scd_error": 12.345855800872457,
+          "eval_fk_error": 7.119080800872457
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "9.496951602063227",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_8",
+          "eval_scd_error": 8.723726602063227,
+          "eval_fk_error": 3.496951602063227
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "10.60259248667808",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_9",
+          "eval_scd_error": 9.82936748667808,
+          "eval_fk_error": 4.6025924866780805
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "15.017447801776225",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_10",
+          "eval_scd_error": 14.244222801776225,
+          "eval_fk_error": 9.017447801776225
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "12.599092838660123",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_11",
+          "eval_scd_error": 11.825867838660123,
+          "eval_fk_error": 6.599092838660123
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "13.682844448073965",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_12",
+          "eval_scd_error": 13.682844448073965,
+          "eval_fk_error": 9.682844448073965
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "12.774637519763282",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_13",
+          "eval_scd_error": 12.001412519763281,
+          "eval_fk_error": 6.7746375197632815
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "10.700980696770072",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_14",
+          "eval_scd_error": 10.700980696770072,
+          "eval_fk_error": 6.700980696770072
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "14.652478984366503",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_15",
+          "eval_scd_error": 14.652478984366503,
+          "eval_fk_error": 10.652478984366503
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "9.660280575443176",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_16",
+          "eval_scd_error": 8.887055575443176,
+          "eval_fk_error": 3.660280575443176
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "11.480082966126876",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_17",
+          "eval_scd_error": 11.480082966126876,
+          "eval_fk_error": 7.480082966126876
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "12.269172676256725",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_18",
+          "eval_scd_error": 12.269172676256725,
+          "eval_fk_error": 8.269172676256725
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "13.71355183105311",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_19",
+          "eval_scd_error": 12.94032683105311,
+          "eval_fk_error": 7.71355183105311
+        }
+      ]
+    }
+  ]
+}

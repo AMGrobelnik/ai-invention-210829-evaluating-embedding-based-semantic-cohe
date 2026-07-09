@@ -1,0 +1,12 @@
+{
+  "total_examples": 15,
+  "correlations": {
+    "SCE": {
+      "pearson_r": -0.21400746519795164
+    },
+    "Flesch-Kincaid": {
+      "pearson_r": 0.9189817395853062
+    }
+  },
+  "avg_time_per_example_ms": 0.5588849385579426
+}

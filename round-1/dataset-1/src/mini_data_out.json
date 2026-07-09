@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "description": "Readability datasets for SCE evaluation",
+    "total_examples": 304353,
+    "sources": [
+      "clear_corpus",
+      "onestop_english",
+      "wikilarge"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "clear_corpus",
+      "examples": [
+        {
+          "input": "Their horses had been tethered near at hand, and they were soon mounted and riding away toward Mendoza.\nThe sun beat down hotly on the plain of white sand, and the sky was of a bright blue, such as Frank had never seen elsewhere.\nOutside Mendoza was a narrow canal, but a few feet in width, and half filled with water, from which rose little whiffs of hot steam.\nAlong the side of the canal was a staggering rude stone wall, fringed with bushes in strips and clumps.\nBeyond the canal, which fixed the boundary of the plain of sand, through vistas of tree trunks, could be seen glimpses of brown fields, fading away into pale pink, violet, and green.\nThe dome and towers of a church rose against the dim blue; low down, and on every side were spots of cream-white, red, and yellow, with patches of dark green intervening, revealing bits of the town, with orange groves all about.",
+          "output": "-0.556143721",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6506",
+          "metadata_difficulty": 3,
+          "metadata_grade_level": "10",
+          "metadata_genre": "Lit",
+          "metadata_author": "Burt L. Standish",
+          "metadata_title": "Frank Merriwell Down South",
+          "metadata_lexile_band": "1300",
+          "metadata_flesch_reading_ease": "71.33",
+          "metadata_flesch_kincaid_grade": "10.02",
+          "metadata_automated_readability_index": "12.25",
+          "metadata_smog_readability": "9.0"
+        },
+        {
+          "input": "In the Federal Convention of 1787, the idea of state coercion required little discussion; for the members were soon convinced that it involved an impracticable, illogical, and unjust principle. The prevailing view was voiced by Oliver Ellsworth before the Connecticut ratifying convention: \"We see how necessary for Union is a coercive principle. No man pretends to the contrary.… The only question is, shall it be a coercion of law or a coercion of arms? There is no other possible alternative. Where will those who oppose a coercion of law come out? … A necessary consequence of their principles is a war of the States one against the other. I am for coercion by law, that coercion which acts only upon delinquent individuals.\" If anything, these words somewhat exaggerate the immunity of the States from direct control by the National Government, for, as James Madison pointed out in the Federalist, \"in several cases … they [the States] must be viewed and proceeded against in their collective capacities.\" Yet Ellsworth stated correctly the controlling principle of the new government: it was to operate upon individuals through laws interpreted and enforced by its own courts.",
+          "output": "-2.988785836",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6307",
+          "metadata_difficulty": 4,
+          "metadata_grade_level": "12",
+          "metadata_genre": "Info",
+          "metadata_author": "Edward S. Corwin",
+          "metadata_title": "John Marshall and the Constitution",
+          "metadata_lexile_band": "900",
+          "metadata_flesch_reading_ease": "42.39",
+          "metadata_flesch_kincaid_grade": "12.07",
+          "metadata_automated_readability_index": "11.96",
+          "metadata_smog_readability": "15.0"
+        },
+        {
+          "input": "Meanwhile, the four racers, at Nyoda's suggestion, had towed their canoes out some distance from the dock and were trying to right them and climb in. This was easier said than done, for as fast as they splashed the water out on one side it ran in at the other. Nyoda and Medmangi were trying to get all the water out of theirs before getting in themselves, while Nakwisi and Chapa had theirs half empty and had managed to get in and were splashing the water out from both sides at once. Sahwah and Migwan stopped ducking each other to watch the righting process. Nakwisi and Chapa had just triumphantly paddled up to the canoe dock, and Nyoda and Medmangi were just about ready to start, when Hinpoha shouted that the Bluebird was coming. The girls looked up to find the little steamer hardly a hundred yards from the dock. \"Sahwah,\" cried Nyoda, hastily coming up on the dock, \"where is the sheet you were going to wave from the tower when the Bluebird came in sight?\"",
+          "output": "-1.530942371",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6549",
+          "metadata_difficulty": 3,
+          "metadata_grade_level": "10",
+          "metadata_genre": "Lit",
+          "metadata_author": "Hildegard G. Frey",
+          "metadata_title": "THE CAMP FIRE GIRLS IN THE MAINE WOODS\nor, The Winnebagos Go Camping",
+          "metadata_lexile_band": "1100",
+          "metadata_flesch_reading_ease": "68.37",
+          "metadata_flesch_kincaid_grade": "10.0",
+          "metadata_automated_readability_index": "11.82",
+          "metadata_smog_readability": "9.0"
+        }
+      ]
+    },
+    {
+      "dataset": "onestop_english",
+      "examples": [
+        {
+          "input": "Intermediate \nIf the amount of food wasted around the world were reduced by just 25%, there would be enough food to feed all the people who are malnourished, according to the UN. Each year, 1.3bn tonnes of food, about a third of all that is produced, is wasted. This includes about 45% of all fruit and vegetables, 35% of  sh and seafood, 30% of cereals, 20% of dairy products and 20% of meat. Meanwhile, 795 million people suffer from severe hunger and malnutrition.\nThe UN identi es the problem of food waste as one of the great challenges to achieving food security. By 2050, food production will have to increase by 60%, compared to 2005 levels, to feed a growing global population. Reducing food waste would help to meet future demand.\nThe problem is global but appears in very different ways. In developing countries, there is a lot of food loss, which is unintentional waste, often due to poor equipment, transportation and infrastructure. In wealthy countries, there are low levels of food loss but high levels of food waste, which means food is thrown away by consumers because they have purchased too much or by retailers who reject food because of strict standards of appearance.\nIn developed countries, consumers and retailers throw away between 30% and 40% of all food purchased, whereas, in poorer countries, only 5% to 16% of food is thrown away.\nIn the developing world, food waste is almost non-existent, says Robert van Otterdijk, coordinator of the UN Food and Agriculture Organizations Save Food programme. Food waste is happening in countries where people can afford to throw away food. But, on the other hand, there are a lot of food losses in developing countries because of the underdeveloped conditions they have.\nThe environmental impact of food loss and waste is high. The carbon footprint of food produced and not eaten is estimated at 3.3 gigatonnes of CO2  this means that, if food waste were a country, it would be the third highest emitter of greenhouse gases after the US and China. About 30% of available agricultural land is used to grow or farm food that is subsequently wasted. And more surface and groundwater is used to produce wasted food around the globe than is used for agriculture by any single country, including India and China.\nClimate change is caused by our economy of production and consumption because it is out of balance with what the Earth can provide, says van Otterdijk. Production of food is one of the biggest production sectors in the world and, if one-third of all this is wasted, you can imagine what a huge effect this has on the natural resources  on land, water, energy and greenhouse gas emissions.\nThe places that waste the most food are the US, Canada, Australia and New Zealand, where consumers waste 39% of all food purchased. Next is Europe, where about 31% of all food purchased by consumers is thrown away. In the UK, 15m tonnes of food is lost or wasted each year. British consumers throw away 4.2m tonnes of edible food each year. This means that 11.7% of all food purchased is wasted, which costs each family 700 a year.\nThe foods most commonly found in British bins are bread, vegetables, fruit and milk. The most wasted food in the UK by weight is bread, with consumers throwing away 414,000 tonnes (22.4%) of all bread purchased. By percentage, the most wasted food is lettuce and leafy salads, of which consumers throw away 38% (64,000 tonnes) of all they buy.\nThe UK has made progress in the past ten years after a campaign to reduce waste. Van Otterdijk says the UK has been very successful in combating food waste. Between 2007 and 2012, the amount of food waste produced by UK households decreased by 21%, from 5.3m tonnes to 4.2m tonnes, largely due to greater awareness.\nVan Otterdijk says there has been a very encouraging, unexpected, continuing interest in food waste and this enables campaigns around the world to gain momentum. We have to do much more and it needs the participation of public and private sectors, he says. But, if it continues like this, maybe, after ten years, well have globally signi cant results.",
+          "output": "3",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_78",
+          "metadata_difficulty": 3
+        },
+        {
+          "input": "How long can you hold your breath? I’m trying it right now. The first 30 seconds are easy. I want to give up at 45 seconds but I continue and it gets easier for a while. But, as I go past one minute, my heart is pounding. I breathe out a tiny bit and this helps. One minute and 12 seconds. I’m quite impressed with myself.\nIn some sports, it is very important to be able to hold your breath, particularly in freediving. In 2006, I met Sam Amps, who was captain of the UK freedive team. At a swimming pool in Bristol, she taught me some simple ways to help me hold my breath for longer while swimming underwater. By the end of the session, I could hold my breath for 90 seconds, long enough to let me swim across the pool. Sam swam across the pool three times easily. She could hold her breath for five minutes, while swimming. Five minutes!\nI asked how she did it: very slow breathing for several minutes before each dive, then a big, deep breath before diving in.\nOur heart rate doesn’t slow down when we hold our breath. At least, it doesn’t if you’re doing it on land. When you’re under cold water, the heart rate slows down in most people. This change in our bodies is useful in diving – but it is even more useful for not drowning.\nHolding our breath is becoming very useful in one particular area of medicine. Radiotherapy for breast cancer involves pointing radiation exactly at the tumour. It’s usually done in short periods, between breaths. But, if the patient can hold their breath for several minutes, it means that doctors can give the complete radiation dose, in the right place, all at the same time. The problem, of course, is that most people cannot hold their breath for several minutes. But doctors at University Hospital Birmingham have shown that, if patients are given air with extra oxygen before holding their breath, they can hold it for five-and-a-half minutes.\nSurprisingly, to achieve this you have to fool the diaphragm. When you breathe in, you’re pulling the muscle of your diaphragm flat so that the volume of your chest increases – this pulls the air into your lungs. \nWhen you hold your breath, you keep your diaphragm like that. If you breathe extra oxygen before a breath-hold, as in the Birmingham radiotherapy experiments, you may be able to stop the diaphragm from becoming tired too quickly. So, it’s your diaphragm, the main muscle of breathing, that is in charge when you are holding your breath. But, in the end, even if you’ve fooled it for a while, the signals from the diaphragm become too strong and you have to give up – and take a breath.",
+          "output": "1",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_63",
+          "metadata_difficulty": 1
+        },
+        {
+          "input": "Intermediate \nA girl born today in the UK can expect to live nearly to the age of 82 on average and her brother will live to 78. They would have a longer life in Andorra (85 and 79 respectively) but will live a little longer than in the US (81 and 76). If they lived in the Central African Republic, they would die in middle age (49 and 44). However, almost everywhere in the world, with the exception of countries such as Lesotho, which have experienced HIV and violence, lifespans are lengthening. And the best news is that small children are much less likely to die than they were forty years ago. There has been a drop in deaths in under-fives of nearly 60%, from 16.4 million in 1970 to 6.8 million in 2010.\nThis last statistic provides justification for the enormous project that the Institute of Health Metrics and Evaluation (IHME) in Seattle has led over the past five years, involving nearly 500 researchers, to assess the global effects of disease. Knowing how many children die and from what cause allows the world to focus its efforts and resources on keeping them alive. There are many lessons to be learnt from the enormous database they have put together, which will help global organizations and individual governments to better care for us all.\nThe project was a big task and is not without controversy. IHME has been very radical in some of its methods. Where they did not have death registries or medical records, for instance, they have taken evidence from verbal autopsies  deciding the cause of death by an interview with the family. The most surprising result has been the malaria figure. IHME said 1.2 million die of the disease every year  twice as many as previously thought. The big increase is in adult deaths. It is commonly believed that malaria kills mostly children under five.\nThe way I was taught as a doctor and everybody else is taught is that, in malarial areas, you become semi-immune as an adult, said Dr Christopher Murray, IHME Director. We originally went with that opinion but there has been a change as we have become more empirical, following the data. African doctors write on hospital records that adults are dying of malaria a lot. But, he adds, their fever could be something else. The findings have led to further studies.\nAlthough Margaret Chan, Director General of the World Health Organization, gave the IHME study a warm official welcome, some of the staff are cautious. We need to be very careful in assessing the validity [of the figures], said Colin Mathers, a senior scientist. We need to wait to be persuaded by evidence. His colleague Dr Tiers Boerma, Director of one WHO department, added: People should understand that some of the numbers are very different and the WHO cant go with any academic publication that states a different number. However, said Mathers, IHME has pushed the envelope with some of these analyses and that is stimulating. One of the main themes, said Murray, was incredibly rapid change in the main causes of death and the speed of that change is a lot faster than we expected it to be.\nReduced fertility and longer life have led to a rise in the average age of the worlds population in a decade from 26 years old to almost 30. The change has been dramatic in Latin America, for instance, where countries like Brazil and Paraguay had life expectancy of below 30 in 1970 and almost 64 in 2010. That is a 35-year increase in the average age of death over four decades. In a place like Brazil, the speed of change is so fast that most institutions are not able to deal with it, Murray said.\nA second factor is the move outside Africa from communicable diseases and the common causes of mother and baby deaths to what are sometimes termed lifestyle diseases, such as heart disease, stroke, diabetes and cancer  some of which have significant genetic triggers. That change has been particularly marked in Latin America, the Middle East and south-east and even south Asia, he said.\nThe third big finding was, Murray said, a surprise to us. There is a lot of disability and it has a big effect on people who are living longer but not healthier lives. The main causes of disability are different from the ones that kill you, he said. They were mental health problems, such as anxiety and depression, and disorders, such as arthritis and lower back pain, anaemia, sight and hearing loss and skin disease. In addition, there was substance abuse. The numbers for these are not going down over time, he said. We are making no progress in reducing these conditions.",
+          "output": "3",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_314",
+          "metadata_difficulty": 3
+        }
+      ]
+    },
+    {
+      "dataset": "wikilarge",
+      "examples": [
+        {
+          "input": "thomas woodrow wilson lrb december february rrb was born in virginia and grew up in georgia. he was the president of the united states of america between and.",
+          "output": "2",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_simple_train_161907",
+          "metadata_difficulty": 2
+        },
+        {
+          "input": "john paul larkin lrb march december rrb better known by his stage name scatman john was an american jazz musician and rapper who created a fusion of scat singing and dance music best known for his hit scatman lrb ski ba bop ba dop bop rrb.",
+          "output": "4",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_normal_train_281984",
+          "metadata_difficulty": 4
+        },
+        {
+          "input": "the riot continued over night ath the entrances to christiania and christianites bombarded the police with stones and molotov cocktails.",
+          "output": "2",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_simple_train_234519",
+          "metadata_difficulty": 2
+        }
+      ]
+    }
+  ]
+}

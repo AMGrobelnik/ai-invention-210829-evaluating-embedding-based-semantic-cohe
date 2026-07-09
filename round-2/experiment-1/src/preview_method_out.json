@@ -1,0 +1,127 @@
+{
+  "datasets": [
+    {
+      "dataset": "clear_corpus",
+      "examples": [
+        {
+          "input": "Their horses had been tethered near at hand, and they were soon mounted and riding away toward Mendoza.\nThe sun beat down hotly on the plain of white sand, and the sky was of a bright blue, such as Fr...",
+          "output": "-0.556143721",
+          "predict_scd": "0.852468148545016",
+          "predict_flesch_kincaid": "10.193012422360248",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6506",
+          "metadata_difficulty": 3,
+          "metadata_grade_level": "10",
+          "metadata_genre": "Lit",
+          "metadata_author": "Burt L. Standish",
+          "metadata_title": "Frank Merriwell Down South",
+          "metadata_lexile_band": "1300",
+          "metadata_flesch_reading_ease": "71.33",
+          "metadata_flesch_kincaid_grade": "10.02",
+          "metadata_automated_readability_index": "12.25",
+          "metadata_smog_readability": "9.0"
+        },
+        {
+          "input": "In the Federal Convention of 1787, the idea of state coercion required little discussion; for the members were soon convinced that it involved an impracticable, illogical, and unjust principle. The pr...",
+          "output": "-2.988785836",
+          "predict_scd": "0.8826702640347346",
+          "predict_flesch_kincaid": "12.25263157894737",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6307",
+          "metadata_difficulty": 4,
+          "metadata_grade_level": "12",
+          "metadata_genre": "Info",
+          "metadata_author": "Edward S. Corwin",
+          "metadata_title": "John Marshall and the Constitution",
+          "metadata_lexile_band": "900",
+          "metadata_flesch_reading_ease": "42.39",
+          "metadata_flesch_kincaid_grade": "12.07",
+          "metadata_automated_readability_index": "11.96",
+          "metadata_smog_readability": "15.0"
+        },
+        {
+          "input": "Meanwhile, the four racers, at Nyoda's suggestion, had towed their canoes out some distance from the dock and were trying to right them and climb in. This was easier said than done, for as fast as the...",
+          "output": "-1.530942371",
+          "predict_scd": "0.8536078333137325",
+          "predict_flesch_kincaid": "9.738095238095237",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6549",
+          "metadata_difficulty": 3,
+          "metadata_grade_level": "10",
+          "metadata_genre": "Lit",
+          "metadata_author": "Hildegard G. Frey",
+          "metadata_title": "THE CAMP FIRE GIRLS IN THE MAINE WOODS\nor, The Winnebagos Go Camping",
+          "metadata_lexile_band": "1100",
+          "metadata_flesch_reading_ease": "68.37",
+          "metadata_flesch_kincaid_grade": "10.0",
+          "metadata_automated_readability_index": "11.82",
+          "metadata_smog_readability": "9.0"
+        }
+      ]
+    },
+    {
+      "dataset": "onestop_english",
+      "examples": [
+        {
+          "input": "Intermediate \nIf the amount of food wasted around the world were reduced by just 25%, there would be enough food to feed all the people who are malnourished, according to the UN. Each year, 1.3bn tonn...",
+          "output": "3",
+          "predict_scd": "0.868699413872167",
+          "predict_flesch_kincaid": "8.546247892944375",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_78",
+          "metadata_difficulty": 3
+        },
+        {
+          "input": "How long can you hold your breath? I\u2019m trying it right now. The first 30 seconds are easy. I want to give up at 45 seconds but I continue and it gets easier for a while. But, as I go past one minute, ...",
+          "output": "1",
+          "predict_scd": "0.8819461877371153",
+          "predict_flesch_kincaid": "6.532270498031359",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_63",
+          "metadata_difficulty": 1
+        },
+        {
+          "input": "Intermediate \nA girl born today in the UK can expect to live nearly to the age of 82 on average and her brother will live to 78. They would have a longer life in Andorra (85 and 79 respectively) but w...",
+          "output": "3",
+          "predict_scd": "0.9285963686574606",
+          "predict_flesch_kincaid": "9.58021354395203",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_314",
+          "metadata_difficulty": 3
+        }
+      ]
+    },
+    {
+      "dataset": "wikilarge",
+      "examples": [
+        {
+          "input": "thomas woodrow wilson lrb december february rrb was born in virginia and grew up in georgia. he was the president of the united states of america between and.",
+          "output": "2",
+          "predict_scd": "0.9366451877780346",
+          "predict_flesch_kincaid": "9.677142857142858",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_simple_train_161907",
+          "metadata_difficulty": 2
+        },
+        {
+          "input": "john paul larkin lrb march december rrb better known by his stage name scatman john was an american jazz musician and rapper who created a fusion of scat singing and dance music best known for his hit...",
+          "output": "4",
+          "predict_scd": "nan",
+          "predict_flesch_kincaid": "18.510869565217394",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_normal_train_281984",
+          "metadata_difficulty": 4
+        },
+        {
+          "input": "the riot continued over night ath the entrances to christiania and christianites bombarded the police with stones and molotov cocktails.",
+          "output": "2",
+          "predict_scd": "nan",
+          "predict_flesch_kincaid": "14.040000000000003",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_simple_train_234519",
+          "metadata_difficulty": 2
+        }
+      ]
+    }
+  ]
+}

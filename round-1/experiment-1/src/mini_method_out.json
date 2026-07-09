@@ -1,0 +1,30 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.4464214762976455",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_0"
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.0635653589635672",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_1"
+        },
+        {
+          "input": "The dog sits. It is happy.",
+          "output": "2.432039225844807",
+          "predict_sce": "2.4999999999999974e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_2"
+        }
+      ]
+    }
+  ]
+}

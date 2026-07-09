@@ -1,0 +1,18 @@
+{
+  "title": "SCD Readability Experiment (TF-IDF)",
+  "layman_summary": "Tests if semantic coherence distance (SCD) using TF-IDF embeddings can predict text readability, compared to traditional readability formulas.",
+  "summary": "This experiment implements and evaluates a Semantic Coherence Distance (SCD) metric for assessing text readability using TF-IDF embeddings as a fallback from SBERT due to environment timeout constraints. The method computes the average cosine distance between consecutive sentence embeddings to quantify semantic coherence. The experiment was conducted on three datasets: (1) CLEAR Corpus with 1000 examples showing human readability judgments (SCD correlation r=0.1202, p=0.0001; Flesch-Kincaid correlation r=-0.4958, p<0.0001), (2) OneStopEnglish with 264 valid examples for 3-class difficulty classification (accuracy=0.712), and (3) WikiLarge for simplification pair ranking. The output follows the exp_gen_sol_out.json schema with datasets array containing input, output, and predict_* fields. Visualizations were generated showing scatter plots of SCD and Flesch-Kincaid scores versus human judgments. The results indicate that while SCD has a statistically significant correlation with readability, traditional formulas like Flesch-Kincaid show stronger predictive power.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  },
+  "upload_ignore_regexes": [
+    "(^|/)__pycache__/",
+    "(^|/).venv/",
+    "(^|/)logs/",
+    "(^|/)subset_.*\\.json",
+    "(^|/)wikilarge_paired_.*\\.json"
+  ]
+}

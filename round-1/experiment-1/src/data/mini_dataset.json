@@ -1,0 +1,20 @@
+[
+  {
+    "text": "The cat sat on the mat. It was happy. The sun was out.",
+    "grade": 2.2788535969157673,
+    "source": "synthetic_simple",
+    "id": "0"
+  },
+  {
+    "text": "I like to play. We run and jump. It is fun to do.",
+    "grade": 1.0500215104453339,
+    "source": "synthetic_simple",
+    "id": "1"
+  },
+  {
+    "text": "Birds fly high. Fish swim fast. Kids play here.",
+    "grade": 1.5500586367382385,
+    "source": "synthetic_simple",
+    "id": "2"
+  }
+]

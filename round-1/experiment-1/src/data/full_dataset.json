@@ -1,0 +1,92 @@
+[
+  {
+    "text": "The cat sat on the mat. It was happy. The sun was out.",
+    "grade": 2.2788535969157673,
+    "source": "synthetic_simple",
+    "id": "0"
+  },
+  {
+    "text": "I like to play. We run and jump. It is fun to do.",
+    "grade": 1.0500215104453339,
+    "source": "synthetic_simple",
+    "id": "1"
+  },
+  {
+    "text": "Birds fly high. Fish swim fast. Kids play here.",
+    "grade": 1.5500586367382385,
+    "source": "synthetic_simple",
+    "id": "2"
+  },
+  {
+    "text": "Mom made a cake. It was good. We ate it all.",
+    "grade": 1.4464214762976455,
+    "source": "synthetic_simple",
+    "id": "3"
+  },
+  {
+    "text": "The dog runs. He likes to go. The park is nice.",
+    "grade": 2.472942428328025,
+    "source": "synthetic_simple",
+    "id": "4"
+  },
+  {
+    "text": "The environment faces many challenges today. Pollution affects our air and water quality. People need to work together to solve these problems.",
+    "grade": 6.706797949691645,
+    "source": "synthetic_medium",
+    "id": "5"
+  },
+  {
+    "text": "Technology has changed how we communicate. Many people use phones and computers daily. This has both advantages and disadvantages.",
+    "grade": 7.568718270819382,
+    "source": "synthetic_medium",
+    "id": "6"
+  },
+  {
+    "text": "Students learn in different ways. Some prefer visual aids while others benefit from hands-on activities. Teachers adapt their methods accordingly.",
+    "grade": 4.347755330517664,
+    "source": "synthetic_medium",
+    "id": "7"
+  },
+  {
+    "text": "The weather pattern has shifted noticeably. Scientists observe changes in temperature and precipitation. These changes impact agriculture significantly.",
+    "grade": 5.687687278741082,
+    "source": "synthetic_medium",
+    "id": "8"
+  },
+  {
+    "text": "Exercise provides numerous health benefits. Regular physical activity strengthens muscles and improves cardiovascular function. Experts recommend daily movement.",
+    "grade": 4.119188877752281,
+    "source": "synthetic_medium",
+    "id": "9"
+  },
+  {
+    "text": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Consequently, researchers must evaluate epistemological paradigms within contemporary discourse.",
+    "grade": 10.530465823625224,
+    "source": "synthetic_complex",
+    "id": "10"
+  },
+  {
+    "text": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations. The implications of superposition extend beyond conventional physical models.",
+    "grade": 12.537487016723537,
+    "source": "synthetic_complex",
+    "id": "11"
+  },
+  {
+    "text": "The convergence of socioeconomic factors contributes to systemic inequalities within institutional structures. Policymakers must address these multidimensional challenges through evidence-based interventions.",
+    "grade": 9.185751787787046,
+    "source": "synthetic_complex",
+    "id": "12"
+  },
+  {
+    "text": "Neuroplasticity demonstrates the brain's remarkable capacity for structural reorganization following experiential modifications. This adaptive mechanism underlies learning and memory consolidation processes.",
+    "grade": 10.39186355480654,
+    "source": "synthetic_complex",
+    "id": "13"
+  },
+  {
+    "text": "The proliferation of digital technologies has fundamentally altered interpersonal communication dynamics. Researchers examine the sociocultural ramifications of these technological transformations.",
+    "grade": 13.549191064456663,
+    "source": "synthetic_complex",
+    "id": "14"
+  }
+]

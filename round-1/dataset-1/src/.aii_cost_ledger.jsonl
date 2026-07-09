@@ -1,0 +1,6 @@
+{"ts": 1783554235.9771247, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "OneStopEnglish corpus", "count": 5}
+{"ts": 1783554236.058351, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "WikiLarge readability dataset", "count": 5}
+{"ts": 1783554236.213812, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "CLEAR corpus readability dataset", "count": 5}
+{"ts": 1783554236.2141912, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "WeeBit readability dataset", "count": 5}
+{"ts": 1783554236.214253, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "Newsela readability dataset", "count": 5}
+{"ts": 1783554236.215676, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "CommonLit readability dataset HuggingFace", "count": 5}

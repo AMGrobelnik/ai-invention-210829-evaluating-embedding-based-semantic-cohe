@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "evaluation_name": "SCD Readability Metric Statistical Evaluation",
+    "description": "Comprehensive statistical evaluation comparing Semantic Coherence Distance (SCD) against Flesch-Kincaid",
+    "n_examples": 60,
+    "complexity_levels": {
+      "simple": 20,
+      "medium": 20,
+      "complex": 20
+    }
+  },
+  "metrics_agg": {
+    "corr_scd_true": 0.5442276192287167,
+    "p_scd_true": 6.967731316064421e-06,
+    "ci_low_scd_true": 0.3602613213585357,
+    "ci_high_scd_true": 0.713459337653907,
+    "rmse_scd": 8.045498340663151,
+    "corr_fk_true": 0.649167575819182,
+    "p_fk_true": 2.0189558252481538e-08,
+    "ci_low_fk_true": 0.48820837625146757,
+    "ci_high_fk_true": 0.7764411284580651,
+    "rmse_fk": 4.603394667457286,
+    "corr_scd_fk": 0.5504702496866339,
+    "williams_t": -1.303568474430229,
+    "williams_p": 0.1923807553706247,
+    "anova_scd_f": 22.618505504163345,
+    "anova_scd_p": 5.869502371966472e-08,
+    "anova_fk_f": 180.60656634746925,
+    "anova_fk_p": 2.150799342056135e-25,
+    "mae_scd": 6.735336584525019,
+    "median_ae_scd": 6.270084729159709,
+    "mae_fk": 3.140235202130845,
+    "median_ae_fk": 1.2625971690798847,
+    "n_scd_better": 1,
+    "pct_scd_better": 1.6666666666666667,
+    "time_scd_ms": 0.021761111915111542,
+    "time_fk_ms": 0.0039558857679367065,
+    "meets_time_requirement": 1.0,
+    "ensemble_corr": 0.6777001290882831,
+    "ensemble_p": 2.7253610477264913e-09,
+    "partial_corr_scd_given_fk": 0.2942863058979218,
+    "partial_corr_p_scd_given_fk": 0.02246706557079532,
+    "partial_corr_fk_given_scd": 0.49913038448608515,
+    "partial_corr_p_fk_given_scd": 4.918712765572134e-05,
+    "cohens_d_error_diff": 0.9099960733843351,
+    "cohens_d_scd_simple_complex": -1.5103648739831321,
+    "normality_scd_errors_w": 0.9221254081574923,
+    "normality_scd_errors_p": 0.00093488862930827,
+    "normality_fk_errors_w": 0.7913387601339551,
+    "normality_fk_errors_p": 8.265932343097695e-08,
+    "spearman_scd_true": 0.08571489950786364,
+    "spearman_fk_true": 0.6865282398508665,
+    "r2_scd": 0.296183701531357,
+    "r2_fk": 0.4214185414949535
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.4464214762976455",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_0",
+          "eval_scd_error": 1.4360214762976455,
+          "eval_fk_error": 0.886911857035688
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.0635653589635672",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_1",
+          "eval_scd_error": 1.0531653589635672,
+          "eval_fk_error": 1.2697679743697663
+        },
+        {
+          "input": "The dog sits. It is happy.",
+          "output": "2.432039225844807",
+          "predict_sce": "2.4999999999999974e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_2",
+          "eval_scd_error": 2.432014225844807,
+          "eval_fk_error": 0.4320392258448069
+        }
+      ]
+    }
+  ]
+}

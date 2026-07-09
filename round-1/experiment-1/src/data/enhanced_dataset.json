@@ -1,0 +1,128 @@
+[
+  {
+    "text": "The cat is big. The dog runs. We play all day.",
+    "grade": 1.107700234938439,
+    "source": "synthetic_enhanced",
+    "id": "3"
+  },
+  {
+    "text": "The cat is big. The dog runs. We play all day.",
+    "grade": 1.536202040033927,
+    "source": "synthetic_enhanced",
+    "id": "6"
+  },
+  {
+    "text": "Technology has transformed modern communication methods. Many individuals use digital devices daily. This change has both advantages and disadvantages.",
+    "grade": 6.011649971327826,
+    "source": "synthetic_enhanced",
+    "id": "10"
+  },
+  {
+    "text": "The convergence of socioeconomic factors contributes to systemic inequalities within institutional structures. Policymakers must address these multidimensional challenges.",
+    "grade": 15.526993261422493,
+    "source": "synthetic_enhanced",
+    "id": "20"
+  },
+  {
+    "text": "Mom cooks food. Dad drives car. We go home.",
+    "grade": 1.8520866189293685,
+    "source": "synthetic_enhanced",
+    "id": "8"
+  },
+  {
+    "text": "Students learn through various educational approaches. Some prefer visual materials while others benefit from hands-on activities. Teachers adapt their methods accordingly.",
+    "grade": 6.308827380245655,
+    "source": "synthetic_enhanced",
+    "id": "14"
+  },
+  {
+    "text": "I see a bird. It flies high. The sky is blue.",
+    "grade": 1.0871866775226322,
+    "source": "synthetic_enhanced",
+    "id": "1"
+  },
+  {
+    "text": "Students learn through various educational approaches. Some prefer visual materials while others benefit from hands-on activities. Teachers adapt their methods accordingly.",
+    "grade": 6.001389183886866,
+    "source": "synthetic_enhanced",
+    "id": "11"
+  },
+  {
+    "text": "Mom cooks food. Dad drives car. We go home.",
+    "grade": 1.0381536661023225,
+    "source": "synthetic_enhanced",
+    "id": "5"
+  },
+  {
+    "text": "The environment faces significant challenges today. Pollution affects air quality in major cities. People must work together to solve these problems.",
+    "grade": 5.735490057552833,
+    "source": "synthetic_enhanced",
+    "id": "12"
+  },
+  {
+    "text": "The convergence of socioeconomic factors contributes to systemic inequalities within institutional structures. Policymakers must address these multidimensional challenges.",
+    "grade": 11.349384807295912,
+    "source": "synthetic_enhanced",
+    "id": "17"
+  },
+  {
+    "text": "The implementation of comprehensive methodological frameworks necessitates multifaceted approaches to theoretical constructs. Researchers must evaluate epistemological paradigms within contemporary discourse.",
+    "grade": 11.438067498752114,
+    "source": "synthetic_enhanced",
+    "id": "15"
+  },
+  {
+    "text": "The implementation of comprehensive methodological frameworks necessitates multifaceted approaches to theoretical constructs. Researchers must evaluate epistemological paradigms within contemporary discourse.",
+    "grade": 12.577294868679317,
+    "source": "synthetic_enhanced",
+    "id": "18"
+  },
+  {
+    "text": "I see a bird. It flies high. The sky is blue.",
+    "grade": 1.3321976985096797,
+    "source": "synthetic_enhanced",
+    "id": "7"
+  },
+  {
+    "text": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations. The implications extend beyond conventional physical models.",
+    "grade": 13.987997322439952,
+    "source": "synthetic_enhanced",
+    "id": "16"
+  },
+  {
+    "text": "Technology has transformed modern communication methods. Many individuals use digital devices daily. This change has both advantages and disadvantages.",
+    "grade": 5.005011660737669,
+    "source": "synthetic_enhanced",
+    "id": "13"
+  },
+  {
+    "text": "The environment faces significant challenges today. Pollution affects air quality in major cities. People must work together to solve these problems.",
+    "grade": 5.47898719016591,
+    "source": "synthetic_enhanced",
+    "id": "9"
+  },
+  {
+    "text": "The cat is big. The dog runs. We play all day.",
+    "grade": 1.0523635988509443,
+    "source": "synthetic_enhanced",
+    "id": "0"
+  },
+  {
+    "text": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations. The implications extend beyond conventional physical models.",
+    "grade": 13.241608541534719,
+    "source": "synthetic_enhanced",
+    "id": "19"
+  },
+  {
+    "text": "I see a bird. It flies high. The sky is blue.",
+    "grade": 1.9011988779516946,
+    "source": "synthetic_enhanced",
+    "id": "4"
+  },
+  {
+    "text": "Mom cooks food. Dad drives car. We go home.",
+    "grade": 1.4072417636703984,
+    "source": "synthetic_enhanced",
+    "id": "2"
+  }
+]

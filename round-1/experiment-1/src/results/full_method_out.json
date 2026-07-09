@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "method": "SCE simple",
+    "correlations": {
+      "SCE": 0.43404928817242155,
+      "FleschKincaid": 0.9537916201038047
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "readability",
+      "examples": [
+        {
+          "input": "The cat is big. The dog runs. We play all day.",
+          "output": "1.107700234938439",
+          "predict_sce": "0.031040688101401842",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-8.5",
+          "metadata_id": "3",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The cat is big. The dog runs. We play all day.",
+          "output": "1.536202040033927",
+          "predict_sce": "0.031040688101401842",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-8.5",
+          "metadata_id": "6",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Technology has transformed modern communication methods. Many individuals use digital devices daily. This change has both advantages and disadvantages.",
+          "output": "6.011649971327826",
+          "predict_sce": "0.8318974066096122",
+          "predict_flesch_kincaid": "15.45",
+          "predict_smog": "12.63",
+          "predict_coleman_liau": "-10.26",
+          "metadata_id": "10",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The convergence of socioeconomic factors contributes to systemic inequalities within institutional structures. Policymakers must address these multidimensional challenges.",
+          "output": "15.526993261422493",
+          "predict_sce": "0.11078018369059102",
+          "predict_flesch_kincaid": "22.66",
+          "predict_smog": "16.03",
+          "predict_coleman_liau": "-13.45",
+          "metadata_id": "20",
+          "metadata_num_sentences": 2
+        },
+        {
+          "input": "Mom cooks food. Dad drives car. We go home.",
+          "output": "1.8520866189293685",
+          "predict_sce": "0.2988407949540819",
+          "predict_flesch_kincaid": "-1.31",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-0.93",
+          "metadata_id": "8",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Students learn through various educational approaches. Some prefer visual materials while others benefit from hands-on activities. Teachers adapt their methods accordingly.",
+          "output": "6.308827380245655",
+          "predict_sce": "0.2835627620090488",
+          "predict_flesch_kincaid": "11.94",
+          "predict_smog": "11.41",
+          "predict_coleman_liau": "-22.93",
+          "metadata_id": "14",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "I see a bird. It flies high. The sky is blue.",
+          "output": "1.0871866775226322",
+          "predict_sce": "0.159625221709838",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-9.03",
+          "metadata_id": "1",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Students learn through various educational approaches. Some prefer visual materials while others benefit from hands-on activities. Teachers adapt their methods accordingly.",
+          "output": "6.001389183886866",
+          "predict_sce": "0.2835627620090488",
+          "predict_flesch_kincaid": "11.94",
+          "predict_smog": "11.41",
+          "predict_coleman_liau": "-22.93",
+          "metadata_id": "11",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Mom cooks food. Dad drives car. We go home.",
+          "output": "1.0381536661023225",
+          "predict_sce": "0.2988407949540819",
+          "predict_flesch_kincaid": "-1.31",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-0.93",
+          "metadata_id": "5",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The environment faces significant challenges today. Pollution affects air quality in major cities. People must work together to solve these problems.",
+          "output": "5.735490057552833",
+          "predict_sce": "0.5899761808227805",
+          "predict_flesch_kincaid": "10.18",
+          "predict_smog": "11.41",
+          "predict_coleman_liau": "-23.19",
+          "metadata_id": "12",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The convergence of socioeconomic factors contributes to systemic inequalities within institutional structures. Policymakers must address these multidimensional challenges.",
+          "output": "11.349384807295912",
+          "predict_sce": "0.11078018369059102",
+          "predict_flesch_kincaid": "22.66",
+          "predict_smog": "16.03",
+          "predict_coleman_liau": "-13.45",
+          "metadata_id": "17",
+          "metadata_num_sentences": 2
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates multifaceted approaches to theoretical constructs. Researchers must evaluate epistemological paradigms within contemporary discourse.",
+          "output": "11.438067498752114",
+          "predict_sce": "1.2148867166327249",
+          "predict_flesch_kincaid": "27.25",
+          "predict_smog": "17.81",
+          "predict_coleman_liau": "-19.43",
+          "metadata_id": "15",
+          "metadata_num_sentences": 2
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates multifaceted approaches to theoretical constructs. Researchers must evaluate epistemological paradigms within contemporary discourse.",
+          "output": "12.577294868679317",
+          "predict_sce": "1.2148867166327249",
+          "predict_flesch_kincaid": "27.25",
+          "predict_smog": "17.81",
+          "predict_coleman_liau": "-19.43",
+          "metadata_id": "18",
+          "metadata_num_sentences": 2
+        },
+        {
+          "input": "I see a bird. It flies high. The sky is blue.",
+          "output": "1.3321976985096797",
+          "predict_sce": "0.159625221709838",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-9.03",
+          "metadata_id": "7",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations. The implications extend beyond conventional physical models.",
+          "output": "13.987997322439952",
+          "predict_sce": "0.4548405062328754",
+          "predict_flesch_kincaid": "24.76",
+          "predict_smog": "17.24",
+          "predict_coleman_liau": "-15.38",
+          "metadata_id": "16",
+          "metadata_num_sentences": 2
+        },
+        {
+          "input": "Technology has transformed modern communication methods. Many individuals use digital devices daily. This change has both advantages and disadvantages.",
+          "output": "5.005011660737669",
+          "predict_sce": "0.8318974066096122",
+          "predict_flesch_kincaid": "15.45",
+          "predict_smog": "12.63",
+          "predict_coleman_liau": "-10.26",
+          "metadata_id": "13",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The environment faces significant challenges today. Pollution affects air quality in major cities. People must work together to solve these problems.",
+          "output": "5.47898719016591",
+          "predict_sce": "0.5899761808227805",
+          "predict_flesch_kincaid": "10.18",
+          "predict_smog": "11.41",
+          "predict_coleman_liau": "-23.19",
+          "metadata_id": "9",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "The cat is big. The dog runs. We play all day.",
+          "output": "1.0523635988509443",
+          "predict_sce": "0.031040688101401842",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-8.5",
+          "metadata_id": "0",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations. The implications extend beyond conventional physical models.",
+          "output": "13.241608541534719",
+          "predict_sce": "0.4548405062328754",
+          "predict_flesch_kincaid": "24.76",
+          "predict_smog": "17.24",
+          "predict_coleman_liau": "-15.38",
+          "metadata_id": "19",
+          "metadata_num_sentences": 2
+        },
+        {
+          "input": "I see a bird. It flies high. The sky is blue.",
+          "output": "1.9011988779516946",
+          "predict_sce": "0.159625221709838",
+          "predict_flesch_kincaid": "-2.36",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-9.03",
+          "metadata_id": "4",
+          "metadata_num_sentences": 3
+        },
+        {
+          "input": "Mom cooks food. Dad drives car. We go home.",
+          "output": "1.4072417636703984",
+          "predict_sce": "0.2988407949540819",
+          "predict_flesch_kincaid": "-1.31",
+          "predict_smog": "4.94",
+          "predict_coleman_liau": "-0.93",
+          "metadata_id": "2",
+          "metadata_num_sentences": 3
+        }
+      ]
+    }
+  ]
+}

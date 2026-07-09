@@ -1,0 +1,14 @@
+[project]
+name = "scd-readability-experiment"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "sentence-transformers==5.6.0",
+    "textstat==0.7.13",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.0",
+    "numpy==2.5.1",
+    "matplotlib==3.11.0",
+    "loguru==0.7.3",
+    "seaborn==0.13.2",
+]
