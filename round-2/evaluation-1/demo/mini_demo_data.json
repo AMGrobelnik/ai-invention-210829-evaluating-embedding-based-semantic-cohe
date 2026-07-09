@@ -1,0 +1,51 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.4464214762976455",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_0"
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.0635653589635672",
+          "predict_sce": "0.010400000000000005",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_1"
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "7.074394930629784",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_0"
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "4.446208694383506",
+          "predict_sce": "0.008124999999999995",
+          "predict_flesch_kincaid": "5.333333333333333",
+          "metadata_id": "medium_1"
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "15.750540342052187",
+          "predict_sce": "0.0",
+          "predict_flesch_kincaid": "4.0",
+          "metadata_id": "complex_0"
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "13.990642809733853",
+          "predict_sce": "0.773225",
+          "predict_flesch_kincaid": "6.0",
+          "metadata_id": "complex_1"
+        }
+      ]
+    }
+  ]
+}

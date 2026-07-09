@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "description": "Mini demo dataset for SCD Readability Experiment - curated from CLEAR Corpus",
+    "total_examples": 5,
+    "sources": ["clear_corpus"]
+  },
+  "datasets": [
+    {
+      "dataset": "clear_corpus",
+      "examples": [
+        {
+          "input": "The cat sat on the mat. It was a sunny day. Birds were singing in the trees.",
+          "output": "-2.5",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "demo_001",
+          "metadata_difficulty": 1,
+          "metadata_grade_level": "3",
+          "metadata_genre": "Lit",
+          "metadata_flesch_reading_ease": "90.0",
+          "metadata_flesch_kincaid_grade": "2.5"
+        },
+        {
+          "input": "In the garden, children played happily while their parents watched from the benches. The flowers bloomed beautifully in the warm spring air, creating a colorful display that attracted butterflies and bees.",
+          "output": "-1.2",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "demo_002",
+          "metadata_difficulty": 2,
+          "metadata_grade_level": "6",
+          "metadata_genre": "Lit",
+          "metadata_flesch_reading_ease": "80.0",
+          "metadata_flesch_kincaid_grade": "5.8"
+        },
+        {
+          "input": "The researchers conducted a comprehensive analysis of the demographic data collected from various urban centers. Their findings indicated significant correlations between socioeconomic factors and educational outcomes, suggesting that policy interventions should address underlying structural inequalities.",
+          "output": "0.5",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "demo_003",
+          "metadata_difficulty": 3,
+          "metadata_grade_level": "10",
+          "metadata_genre": "Info",
+          "metadata_flesch_reading_ease": "65.0",
+          "metadata_flesch_kincaid_grade": "10.2"
+        },
+        {
+          "input": "Despite the promulgation of numerous legislative initiatives designed to mitigate the deleterious effects of industrial pollution on aquatic ecosystems, substantive implementation remains encumbered by jurisdictional complexities and the exigencies of economic development priorities.",
+          "output": "2.1",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "demo_004",
+          "metadata_difficulty": 4,
+          "metadata_grade_level": "14",
+          "metadata_genre": "Info",
+          "metadata_flesch_reading_ease": "35.0",
+          "metadata_flesch_kincaid_grade": "14.5"
+        },
+        {
+          "input": "The quantum mechanical formalism elucidates the probabilistic nature of particle interactions at subatomic scales, wherein wave function collapse precipitates ontological indeterminacy that fundamentally challenges classical epistemological paradigms regarding causality and determinism in physical systems.",
+          "output": "3.8",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "demo_005",
+          "metadata_difficulty": 5,
+          "metadata_grade_level": "16",
+          "metadata_genre": "Info",
+          "metadata_flesch_reading_ease": "20.0",
+          "metadata_flesch_kincaid_grade": "16.8"
+        }
+      ]
+    }
+  ]
+}

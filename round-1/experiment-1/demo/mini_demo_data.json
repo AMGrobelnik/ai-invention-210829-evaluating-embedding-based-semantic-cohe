@@ -1,0 +1,58 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "The cat sits. It is happy.",
+          "output": "2.0",
+          "predict_sce": "0.0001",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_0"
+        },
+        {
+          "input": "I like cake. It is good.",
+          "output": "2.5",
+          "predict_sce": "2.5e-05",
+          "predict_flesch_kincaid": "2.0",
+          "metadata_id": "simple_1"
+        },
+        {
+          "input": "Mom runs fast. They play all day.",
+          "output": "1.5",
+          "predict_sce": "0.0104",
+          "predict_flesch_kincaid": "2.3333333333333335",
+          "metadata_id": "simple_2"
+        },
+        {
+          "input": "The environment faces many challenges today. Pollution affects our air quality. People need to work together.",
+          "output": "6.0",
+          "predict_sce": "0.0002",
+          "predict_flesch_kincaid": "7.0",
+          "metadata_id": "medium_0"
+        },
+        {
+          "input": "Technology has changed how we communicate. Many people use phones daily. This has advantages and disadvantages.",
+          "output": "5.5",
+          "predict_sce": "0.00015",
+          "predict_flesch_kincaid": "6.666666666666667",
+          "metadata_id": "medium_1"
+        },
+        {
+          "input": "The implementation of comprehensive methodological frameworks necessitates a multifaceted approach to theoretical constructs. Researchers must evaluate epistemological paradigms.",
+          "output": "12.0",
+          "predict_sce": "0.00012",
+          "predict_flesch_kincaid": "12.0",
+          "metadata_id": "complex_0"
+        },
+        {
+          "input": "Quantum mechanical phenomena exhibit inherent probabilistic characteristics that challenge classical deterministic interpretations.",
+          "output": "14.0",
+          "predict_sce": "0.00018",
+          "predict_flesch_kincaid": "10.5",
+          "metadata_id": "complex_1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "description": "Readability datasets for SCE evaluation (demo subset)",
+    "total_examples": 9,
+    "sources": [
+      "clear_corpus",
+      "onestop_english",
+      "wikilarge"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "clear_corpus",
+      "examples": [
+        {
+          "input": "Their horses had been tethered near at hand, and they were soon mounted and riding away toward Mendoza.\nThe sun beat down hotly on the plain of white sand, and the sky was of a bright blue, such as Frank had never seen elsewhere.",
+          "output": "-0.556143721",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6506",
+          "metadata_difficulty": 3,
+          "metadata_grade_level": "10",
+          "metadata_genre": "Lit",
+          "metadata_flesch_reading_ease": "71.33",
+          "metadata_flesch_kincaid_grade": "10.02"
+        },
+        {
+          "input": "In the Federal Convention of 1787, the idea of state coercion required little discussion; for the members were soon convinced that it involved an impracticable, illogical, and unjust principle.",
+          "output": "-2.988785836",
+          "metadata_source": "CLEAR",
+          "metadata_text_id": "6307",
+          "metadata_difficulty": 4,
+          "metadata_grade_level": "12",
+          "metadata_genre": "Info",
+          "metadata_flesch_reading_ease": "42.39",
+          "metadata_flesch_kincaid_grade": "12.07"
+        }
+      ]
+    },
+    {
+      "dataset": "onestop_english",
+      "examples": [
+        {
+          "input": "If the amount of food wasted around the world were reduced by just 25%, there would be enough food to feed all the people who are malnourished, according to the UN.",
+          "output": "3",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_78",
+          "metadata_difficulty": 3
+        },
+        {
+          "input": "How long can you hold your breath? I'm trying it right now. The first 30 seconds are easy.",
+          "output": "1",
+          "metadata_source": "OneStopEnglish",
+          "metadata_text_id": "ose_test_63",
+          "metadata_difficulty": 1
+        }
+      ]
+    },
+    {
+      "dataset": "wikilarge",
+      "examples": [
+        {
+          "input": "thomas woodrow wilson was born in virginia and grew up in georgia. he was the president of the united states of america.",
+          "output": "2",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_simple_train_161907",
+          "metadata_difficulty": 2
+        },
+        {
+          "input": "john paul larkin better known by his stage name scatman john was an american jazz musician and rapper.",
+          "output": "4",
+          "metadata_source": "WikiLarge",
+          "metadata_text_id": "wiki_normal_train_281984",
+          "metadata_difficulty": 4
+        }
+      ]
+    }
+  ]
+}
