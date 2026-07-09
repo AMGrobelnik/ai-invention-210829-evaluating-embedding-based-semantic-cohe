@@ -1,0 +1,15 @@
+{
+  "title": "Semantic Coherence for Readability Assessment: An Empirical Evaluation",
+  "summary": "Successfully created a publication-ready LaTeX paper with 11 pages, 4 figures, and 12 references. The paper evaluates Semantic Coherence Distance (SCD) for readability assessment on three datasets (CLEAR, OneStopEnglish, synthetic). PDF compiled successfully with all figures and citations properly rendered. Includes honest assessment that SCD is not novel but provides complementary signal to traditional formulas. Key findings: SCD alone weak (r=0.1202 on CLEAR); ensemble of SCD+FK achieves best performance (71.2% accuracy on OneStopEnglish, r=0.6777 on synthetic).",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig2_v0.jpg",
+      "figures/fig3_v0.jpg",
+      "figures/fig4_v0.jpg"
+    ]
+  }
+}

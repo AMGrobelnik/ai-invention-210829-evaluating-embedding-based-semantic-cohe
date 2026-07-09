@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Coleman and Liau(1975)]{Coleman1975}
+M.~Coleman and T.~L. Liau.
+\newblock A computer readability formula designed for machine scoring.
+\newblock \emph{Journal of Applied Psychology}, 60\penalty0 (2):\penalty0
+  283--284, 1975.
+
+\bibitem[Crossley et~al.(2021)Crossley, Burling, and O'Reilly]{Crossley2021}
+Scott Crossley, A.~B. Burling, and Tenaha O'Reilly.
+\newblock The commonlit ease of readability (clear) corpus.
+\newblock \emph{Proceedings of the 14th International Conference on Educational
+  Data Mining}, pages 381--386, 2021.
+
+\bibitem[Flesch(1948)]{Flesch1948}
+Rudolf Flesch.
+\newblock A new readability yardstick.
+\newblock \emph{Journal of Applied Psychology}, 32\penalty0 (3):\penalty0
+  221--233, 1948.
+
+\bibitem[Graesser et~al.(2011)Graesser, McNamara, and Kulikowich]{Graesser2011}
+Arthur~C. Graesser, Danielle~S. McNamara, and Jonna~M. Kulikowich.
+\newblock Coh-metrix: Providing multilevel analyses of text characteristics.
+\newblock \emph{Educational Researcher}, 40\penalty0 (5):\penalty0 223--234,
+  2011.
+
+\bibitem[Hlasse(2023)]{Hlasse2023}
+Hlasse.
+\newblock Textdescriptives: A python package for calculating text descriptives.
+\newblock \emph{Behavior Research Methods}, 2023.
+
+\bibitem[Imperial(2021)]{Imperial2021BERT}
+Joseph~Marvin Imperial.
+\newblock Bert embeddings for automatic readability assessment.
+\newblock In \emph{Recent Advances in Natural Language Processing}, pages
+  611--618, 2021.
+
+\bibitem[Imperial and Ong(2021)]{Imperial2021WMD}
+Joseph~Marvin Imperial and Ethel Ong.
+\newblock A simple post-processing technique for improving readability
+  assessment of texts using word mover's distance.
+\newblock \emph{arXiv preprint arXiv:2103.07277}, 2021.
+
+\bibitem[Kincaid et~al.(1975)Kincaid, Fishburne, Rogers, and
+  Chissom]{Kincaid1975}
+J.~P. Kincaid, R.~P. Fishburne, R.~L. Rogers, and B.~S. Chissom.
+\newblock Derivation of new readability formulas for navy enlisted personnel.
+\newblock Technical report, Naval Technical Training Command Millington TN
+  Research Branch, 1975.
+
+\bibitem[McLaughlin(1969)]{McLaughlin1969}
+G.~Harry McLaughlin.
+\newblock Smog grading: A new readability formula.
+\newblock \emph{Journal of Reading}, 12\penalty0 (8):\penalty0 639--646, 1969.
+
+\bibitem[Vajjala and Lucic(2018)]{Vajjala2018}
+Sowmya Vajjala and Ivana Lucic.
+\newblock Onestopenglish corpus: A new corpus for automatic readability
+  assessment and text simplification.
+\newblock In \emph{Proceedings of the 13th Workshop on Innovative Use of NLP
+  for Building Educational Applications}, pages 297--304, 2018.
+
+\end{thebibliography}
